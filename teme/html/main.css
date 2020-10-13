@@ -1,0 +1,24 @@
+html {
+    margin: 25px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+  
+header{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(80, 78, 78);
+}
+links {
+    padding-top: 25px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+ul {
+    line-height: 30px;
+}
+ 
+hr {
+    margin: 0px;
+}

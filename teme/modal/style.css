@@ -1,0 +1,69 @@
+body {
+    padding:20px;
+    background-color: rgb(233, 230, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.modal {
+   position: absolute;
+   box-sizing: border-box;
+   bottom: 300px; 
+   right: 600px;
+   
+   background-color: white;
+   box-shadow:0 2px 20px rgba(0,0,0,0.3) ;
+   height: 230px;
+   width: 330px;
+   padding: 0 15px;
+}
+
+div.title {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+div.Name {
+    display: grid;
+    padding: 0 15px;
+}
+
+div label{
+    padding-left: 0px;;
+}
+
+input{
+    padding-top: 10px;
+}
+
+label,input, .buttons {
+    padding:15px;
+}  
+
+input {
+    padding: 5px 3px;
+}
+
+.buttons {
+    padding-left: 150px;
+} 
+
+.submit {
+     background-color: rgb(87, 89, 170);
+     color: rgb(233, 230, 230); 
+}
+
+.submit:hover {
+    background-color: rgb(233, 230, 230);
+    color: rgb(87, 89, 170);
+    border-style: none;
+    background-color: white;
+}
+
+.Close {
+    border-style: none;
+    background-color: white;
+    color: rgb(87, 89, 170);
+}
+
