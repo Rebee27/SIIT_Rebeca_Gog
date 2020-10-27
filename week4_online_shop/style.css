@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+   text-align:center ;
+}
+
+div.articles {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+}
+
+.oldPrice {
+    padding: 10px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.new {
+background-color: orangered;
+color: white;
+padding: 5px ;
+position: relative;
+bottom: 270px;
+right:60px
+}
+
+.evaluation {
+    text-align: right;
+    padding-right: 16%;
+}
+
+.article1.evaluation:nth-child(3n+1) , 
+.article1.evaluation:nth-child(4n+1), 
+.article3.evaluation:nth-child(3n+1) ,
+.article3.evaluation:nth-child(4n+1) ,
+.article4.evaluation:nth-child(3n+1) ,
+.article4.evaluation:nth-child(4n+1){
+      color:grey;
+}
